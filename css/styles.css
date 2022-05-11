@@ -1,0 +1,182 @@
+body {
+  background-color: rgb(12, 18, 44);
+  width: 1440px;
+  background-image: url(../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: bottom;
+}
+
+.fylo-body {
+  display: inline-block;
+  background-color: rgb(29, 44, 103);
+  padding: 10px;
+  width: 400px;
+  border-radius: 15px;
+  border-top-right-radius: 120px;
+  margin: 300px 0 300px 300px;
+}
+
+.fylo-logo {
+  display: block;
+  margin: 40px;
+}
+
+.icons {
+  margin: 0 30px 30px;
+}
+
+.doc-img {
+  margin-right: 15px;
+  background-color: rgb(12, 18, 44);
+  border: solid rgb(12, 18, 44) 15px;
+  border-radius: 10px;
+}
+
+.folder-img {
+  margin-right: 15px;
+  background-color: rgb(12, 18, 44);
+  border-style: solid;
+  border-color: rgb(12, 18, 44);
+  border-width: 17px 13px;
+  border-radius: 10px;
+}
+
+.upload-img {
+  background-color: rgb(12, 18, 44);
+  border-style: solid;
+  border-color: rgb(12, 18, 44);
+  border-width: 19px 13px;
+  border-radius: 10px;
+}
+.storage {
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+}
+
+.memory {
+  color: rgb(132, 135, 148);
+  background-color: rgb(29, 44, 103);
+  width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+
+.memory-space {
+  background-color: rgb(12, 18, 44);
+  padding: 5px;
+}
+
+.memory-used {
+  height: 20px;
+  width: 81.5%;
+  position: relative;
+  background-image: linear-gradient(to right, rgb(255, 163, 153), rgb(255, 77, 151));
+}
+
+.circle {
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin-top: 2px;
+  left: 380px;
+  background-color: rgb(221, 219, 255);
+}
+
+.curves {
+  border-radius: 20px!important
+}
+
+.space-used {
+  color: rgb(221, 219, 255);
+  font-weight: 700;
+}
+
+.start {
+  display: inline-block;
+  width: 85%;
+  color: rgb(221, 219, 255);
+  font-weight: 700;
+}
+
+.end {
+  display: inline-block;
+  color: rgb(221, 219, 255);
+  font-weight: 700;
+}
+
+.message {
+  width: 200px;
+  margin-right: 300px;
+  position: absolute;
+  bottom: 140px;
+  left: 330px;
+}
+
+.message-icon-end {
+  width: 0;
+  height: 0;
+  border-top: 25px solid white;
+  border-left: 25px solid transparent;
+  margin-left: 175px;
+}
+
+.space-left {
+  background-color: white;
+  padding: 10px 0 10px 20px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+}
+
+.numbers {
+  font-size: 40px;
+  display: inline;
+  font-weight: 700;
+  color: rgb(12, 18, 44);
+}
+
+.one {
+  display: inline;
+  position: relative;
+  top: 3px;
+}
+
+.eight {
+  display: inline;
+  margin: 0;
+  width: 10px;
+  position: relative;
+  right: 10px;
+}
+
+.five {
+  display: inline;
+  margin: 0;
+  width: 10px;
+  position: relative;
+  right: 20px;
+  top: 5px;
+}
+
+.left {
+  margin: 0 10px;
+  display: inline;
+  position: relative;
+  bottom: 5px;
+  right: 20px;
+  color: rgb(132, 135, 148);
+}
+
+}
+.attribution {
+  font-size: 20px;
+}
+
+.attribution a {
+  color: rgb(62, 82, 163);
+}
